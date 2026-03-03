@@ -28,9 +28,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="h-24 bg-base-100 shadow-lg">
         <!-- navigation bar -->
-        <div class="navbar bg-base-100 shadow-lg">
+        <section class="navbar w-11/12 mx-auto">
             <div class="navbar-start">
                 <!-- dropdown icon -->
                 <div class="dropdown">
@@ -83,7 +83,28 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
+
+        <!-- hero section -->
+        <section class="flex flex-col-reverse md:flex-row justify-between py-5 items-center w-11/12 mx-auto">
+            <div class="content flex-1 text-center md:text-left">
+                <h1 class="font-bold text-5xl text-sky-400 mb-6">English <span class="text-neutral-800">is Easy!!</span>
+                </h1>
+                <p class="text-neutral-700 text-2xl mb-10">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন
+                    অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের
+                    Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+
+                <!-- form area -->
+                <div class="flex flex-col items-center space-y-5">
+                    <input type="email" class="input" placeholder="Enter Your Name" />
+                    <input type="password" class="input" placeholder="Enter Your Password" />
+                    <button class="btn btn-neutral mt-4 w-fit">Get Started</button>
+                </div>
+            </div>
+            <div class="image flex-1">
+                <img src="assets/hero-student.png" alt="">
+            </div>
+        </section>
     </header>
 </body>
 
